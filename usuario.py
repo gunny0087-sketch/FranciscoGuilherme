@@ -1,4 +1,3 @@
-
 logado = False
 usuario_logado = ""
 
