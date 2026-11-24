@@ -38,43 +38,43 @@ while True:
             nome = input("Digite o nome do usuário: ")
             usuarios.append(nome)
             print("Usuário cadastrado com sucesso!")
-            input("ENTER para continuar...")
+            input("Enter para continuar")
 
         elif opcao == "2":
             nome = input("Digite o nome que deseja pesquisar: ")
 
             if nome in usuarios:
-                print("Usuário encontrado!")
+                print("Usuário encontrado")
             else:
-                print("Usuário não encontrado!")
+                print("Usuário não encontrado")
 
-            input("ENTER para continuar...")
+            input("Enter para continuar")
 
         elif opcao == "3":
             nome = input("Digite o nome que deseja remover: ")
 
             if nome in usuarios:
                 usuarios.remove(nome)
-                print("Usuário removido com sucesso!")
+                print("Usuário removido com sucesso")
             else:
-                print("Usuário não encontrado!")
+                print("Usuário não encontrado")
 
-            input("ENTER para continuar...")
+            input("Enter para continuar")
 
         elif opcao == "4":
             print("\n=== LISTA DE USUÁRIOS ===")
 
             if len(usuarios) == 0:
-                print("Nenhum usuário cadastrado.")
+                print("Nenhum usuário cadastrado")
             else:
                 for nome in usuarios:
                     print(nome)
 
-            input("ENTER para continuar...")
+            input("Enyer para continuar")
 
         elif opcao == "5":
             print("Fazendo logout...")
-            input("ENTER para voltar para o login.")
+            input("Enter para voltar para o login.")
             usuario_logado = ""
             logado = False
 
